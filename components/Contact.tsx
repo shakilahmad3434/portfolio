@@ -12,7 +12,7 @@ const Contact = () => {
  
         const formData = new FormData(e.currentTarget);
         
-        const contactData: any = {}
+        const contactData: Record<string, string> = {}
         for(let [keys, values] of formData) {
             contactData[keys] = values as string
         }

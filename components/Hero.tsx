@@ -1,8 +1,14 @@
 import React from 'react'
 import Button from './common/Button'
 
+interface HeroInterface {
+    src: string
+    icon: string
+    alt: string
+}
+
 const Hero = () => {
-    const techStack = [
+    const techStack: HeroInterface[] = [
         {
             src: "#",
             icon: "reactjs.svg",
@@ -60,7 +66,7 @@ const Hero = () => {
                             <h5 className='text-2xl leading-6 font-bold text-[#04060C]'>🛠️ Tech Stack</h5>
                             <ul className='flex'>
                                 {
-                                    techStack.map((item: any, index: number) => (
+                                    techStack.map((item: HeroInterface, index: number) => (
                                         <li key={index} className='inline-block transform transition-all duration-300 hover:-translate-y-1'>
                                             <a href={item.src} className='h-13 w-13 leading-13 p-2 text-center inline-block text-2xl text-[#04060C] relative z-[1] rounded bg-white mt-6 mr-3 transition duration-300 hover:bg-gradient-to-r hover:from-[#FF4308] hover:to-[#FB8500] group'>
                                                 <img src={`/assets/img/icons/${item.icon}`} alt={item.alt} className='group-hover:invert group-hover:brightness-0' />
