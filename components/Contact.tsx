@@ -35,7 +35,7 @@ const Contact = () => {
         }
     }
   return (
-    <div className='sm:px-4 md:px-8 pb-4 xl:px-10 mt-10'>
+    <div className='sm:px-4 md:px-8 pb-4 xl:px-10 mt-10' id='contact'>
         <div className='bg-white rounded border border-white p-3 sm:p-6 md:p-12 flex flex-col-reverse xl:flex-row gap-10'>
             <div className='xl:w-4/12'>
                 <div className='bg-[#F4F4F6] rounded p-6 border border-[#F4F4F6]'>
@@ -94,7 +94,7 @@ const Contact = () => {
                 </div>
 
                 <div className='mt-4 2xl:pl-16'>
-                    <p className="text-md font-medium text-[#5D626F] opacity-80">At PICO, success goes beyond shipping code. It’s about understanding client needs, delivering maintainable full stack solutions, and ensuring long-term performance, scalability, and trust.</p>
+                    <p className="text-md font-medium text-[#5D626F] opacity-80">Success goes beyond shipping code. It’s about understanding client needs, delivering maintainable full stack solutions, and ensuring long-term performance, scalability, and trust.</p>
                     <div className="flex flex-col sm:flex-row items-center">
                         <div className="w-full flex items-center bg-[#F4F4F6] rounded border border-[#F4F4F6] hover:border-[#FE5C05] py-6 px-2 sm:px-7 mt-5 sm:mr-[14px] transition-all duration-500">
                             <div className="h-[50px] w-[50px] text-center leading-12 rounded-full bg-white flex justify-center items-center">
@@ -102,7 +102,7 @@ const Contact = () => {
                             </div>
                             <div className="ml-4">
                                 <h5 className="text-xl leading-5 text-[#04060C] font-semibold mb-3.5">CALL</h5>
-                                <a href="tel:6201424759" className="text-[16px] leading-4 text-[#5D626F] opacity-80 font-semibold inline-block">6201424759</a>
+                                <a href="tel:6201424759" className="text-[16px] leading-4 text-[#5D626F] opacity-80 font-semibold inline-block">7259522909</a>
                             </div>
                         </div>
 
@@ -112,7 +112,7 @@ const Contact = () => {
                             </div>
                             <div className="ml-4">
                             <h5 className="text-xl leading-5 text-[#04060C] font-semibold mb-3.5">Email</h5>
-                            <a href="mailto:shakilahmad342100@gmail.com" className="text-[16px] leading-4 text-[#5D626F] opacity-80 font-semibold inline-block">shakilahmad342100@gmail.com</a>
+                            <a href="mailto:shakilahmad342100@gmail.com" className="text-[16px] leading-4 text-[#5D626F] opacity-80 font-semibold inline-block">shakiltechsunset@gmail.com</a>
                             </div>
                         </div>
                     </div>

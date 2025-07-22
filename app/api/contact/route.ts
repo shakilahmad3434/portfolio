@@ -14,7 +14,7 @@ export async function POST(req: NextRequest) {
   })
 
   const mailOptions = {
-    from: `"Portfolio Contact" <${process.env.SMTP_EMAIL}>`,
+    from: `"Portfolio Contact" <${email}>`,
     to: process.env.SMTP_EMAIL,
     replyTo: email,
     subject: `Message from ${name}`,

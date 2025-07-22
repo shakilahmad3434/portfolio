@@ -22,14 +22,14 @@ const Home = () => {
         return () => clearTimeout(timer)
     }, []);
 
-    useEffect(() => {
-        const link = document.createElement('a');
-        link.href="/assets/img/cv/cv2.pdf";
-        link.download = "Resume_Shakil_Ahmad.pdf";
-        document.body.appendChild(link);
-        link.click();
-        document.body.removeChild(link)
-    }, [])
+    // useEffect(() => {
+    //     const link = document.createElement('a');
+    //     link.href="/assets/img/cv/cv2.pdf";
+    //     link.download = "Resume_Shakil_Ahmad.pdf";
+    //     document.body.appendChild(link);
+    //     link.click();
+    //     document.body.removeChild(link)
+    // }, [])
     
     const menus = [
                     { href: "#home", text: "Home" },
@@ -84,11 +84,11 @@ const Home = () => {
                 <div>
                 <p className='flex items-center gap-2 text-white font-bold mb-2'>
                     <PhoneCall size={20}/>
-                    <span>+91 6201424759</span>
+                    <span>+91 7259522909</span>
                 </p>
                 <p className='flex items-center gap-2 text-white font-bold'>
                     <Mail size={20} />
-                    <span>shakilahmad342100@gmail.com</span>
+                    <span>shakiltechsunset@gmail.com</span>
                 </p>
                 </div>
             </div>

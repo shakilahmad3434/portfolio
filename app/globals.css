@@ -2,7 +2,7 @@
 @import "tailwindcss";
 
 @theme {
-    --font-playfair: "Playfair", serif
+    --font-playfair: "Playfair", serif;
 }
 
 .stroke-text {

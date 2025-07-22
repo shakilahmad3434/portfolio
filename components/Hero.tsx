@@ -37,7 +37,7 @@ const Hero = () => {
     ]
 
   return (
-    <div className='sm:px-4 md:px-8'>
+    <div className='sm:px-4 md:px-8' id='home'>
         <h4 className="text-2xl font-semibold text-[#04060C] mb-2 md:mb-6 flex items-center">
             <img src="/assets/img/icons/hand1.svg" alt="hand icon" />
             Hi I’m Shakil Ahmad
@@ -59,7 +59,7 @@ const Hero = () => {
                 <img src="/assets/img/all-images/header-img2.png" alt="" className='rounded' />
             </div>
             <div className='lg:w-1/2 mt-16 sm:ml-16 2xl:ml-0'>
-                <p className='text-xl font-medium text-[#5D626F] opacity-80'>As a passionate Full Stack Developer, I specialize in building scalable web applications from scratch using modern technologies like React, Next.js, Node.js, Express, and MongoDB. With over 1+ years of experience, I craft user-centric solutions that merge design with functionality.</p>
+                <p className='text-xl font-medium text-[#5D626F] opacity-80'>As a passionate Full Stack Developer, I specialize in building scalable web applications from scratch using modern technologies like React, Next.js, Node.js, Express, and MongoDB. With over 2+ years of experience, I craft user-centric solutions that merge design with functionality.</p>
                 <Button />
 
                 <div className="mt-16 relative">

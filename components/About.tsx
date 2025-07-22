@@ -3,7 +3,7 @@ import Button from './common/Button'
 
 const About = () => {
   return (
-    <div className='sm:px-4 md:px-8 mt-16 xl:mt-0 flex flex-col xl:flex-row'>
+    <div className='sm:px-4 md:px-8 mt-16 xl:mt-0 flex flex-col xl:flex-row' id='about'>
         <div className='xl:w-1/3 flex flex-col items-center justify-center xl:block'>
             {/* box 1 */}
             <div className="h-64 w-64 text-center relative">
