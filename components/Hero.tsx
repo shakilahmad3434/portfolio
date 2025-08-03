@@ -59,7 +59,7 @@ const Hero = () => {
                 <img src="/assets/img/all-images/header-img2.png" alt="" className='rounded' />
             </div>
             <div className='lg:w-1/2 mt-16 sm:ml-16 2xl:ml-0'>
-                <p className='text-xl font-medium text-[#5D626F] opacity-80'>As a passionate Full Stack Developer, I specialize in building scalable web applications from scratch using modern technologies like React, Next.js, Node.js, Express, and MongoDB. With over 2+ years of experience, I craft user-centric solutions that merge design with functionality.</p>
+                <p className='text-xl font-medium text-[#5D626F] opacity-80'>As a passionate Full Stack Developer, I specialize in building scalable web applications from scratch using modern technologies like React, Next.js, Node.js, Express, and MongoDB. With over 3.5+ years of experience, I craft user-centric solutions that merge design with functionality.</p>
                 <Button />
 
                 <div className="mt-16 relative">
