@@ -34,6 +34,7 @@ const Home = () => {
     
     const menus = [
                     { href: "#home", text: "Home" },
+                    { href: "#skill", text: "Skills" },
                     { href: "#about", text: "About ME"},
                     { href: "#portfolio", text: "Portfolio" },
                     { href: "#contact", text: "Contact" },

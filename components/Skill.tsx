@@ -80,11 +80,11 @@ const Skill = () => {
         },
         {
             icon: "load-balancer.svg",
-            name: "loadbalancer"
+            name: "load balancer"
         },
         {
             icon: "media-convert.svg",
-            name: "MediaConvert"
+            name: "Media Convert"
         },
         {
             icon: "lambda.svg",
@@ -170,7 +170,7 @@ const Skill = () => {
             </h2>
             <div className="relative lg:-right-80 inline-block py-6 px-7 border border-[#FE5C05] rounded bg-white isolate">
                 <span className="bg-gradient-to-r from-[#FF4308] to-[#FB8500] bg-clip-text text-transparent font-playfair italic text-5xl font-semibold uppercase">
-                    Full stack developer
+                    Fullstack developer
                 </span>
 
                 <img
@@ -195,44 +195,68 @@ const Skill = () => {
                 />
             </div>
 
-            <div className="mt-5 sm:mt-10 gap-x-5 gap-y-8 xl:gap-y-10">
-                <h3 className='text-2xl leading-6 font-bold text-[#04060C] flex gap-1'><Server /> Backend technologies</h3>
-                <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 xl:grid-cols-8 gap-2 mb-10">
+            <div className="mt-10">
+                <h3 className='text-2xl font-bold text-[#04060C] flex items-center gap-2 mb-4'>
+                    <Server className="text-orange-500" />
+                    Backend technologies
+                </h3>
+                <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 xl:grid-cols-8 gap-4 mb-10">
                     {
                         backendTechnologies.map((item: TechnologiesInterface, index: number) => (
-                            <div key={index} className='inline-block transform transition-all duration-300 hover:-translate-y-1'>
-                                <div className='h-24 w-28 leading-13 p-2 text-center inline-block text-2xl text-[#04060C] relative z-[1] rounded bg-white mt-6 mr-3 transition duration-300 hover:bg-gradient-to-r hover:from-[#FF4308] hover:to-[#FB8500] group'>
-                                    <img src={`/assets/img/icons/${item.icon}`} alt={item.name} className='group-hover:invert group-hover:brightness-0 h-12 mx-auto mb-3' />
-                                    <p className="text-sm font-bold uppercase">{item.name}</p>
-                                </div>
+                            <div key={index} className='group relative flex flex-col items-center justify-center text-center rounded-xl bg-white p-4 h-28 w-28 shadow-sm hover:shadow-md transform transition duration-300 hover:-translate-y-2 hover:bg-gradient-to-br hover:from-[#FF4308] hover:to-[#FB8500]'>
+                                <img
+                                    src={`/assets/img/icons/${item.icon}`}
+                                    alt={item.name}
+                                    className="h-10 w-10 mb-3 transition duration-300 group-hover:invert group-hover:brightness-0"
+                                />
+                                <p className="text-sm font-semibold uppercase text-[#04060C] group-hover:text-white transition duration-300">
+                                    {item.name}
+                                </p>
+                                <span className="absolute inset-0 rounded-xl border border-gray-200 group-hover:border-transparent transition duration-300"></span>
                             </div>
                         ))
                     }
                 </div>
 
-                <h3 className='text-2xl leading-6 font-bold text-[#04060C] flex gap-1'><Cloud /> Aws cloud</h3>
-                <div className="grid grid-cols-8 gap-2 mb-10">
+                <h3 className='text-2xl font-bold text-[#04060C] flex items-center gap-2 mb-4'>
+                    <Cloud className="text-orange-500" />
+                    Aws cloud
+                </h3>
+                <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 xl:grid-cols-8 gap-4 mb-10">
                     {
                         awsCloud.map((item: TechnologiesInterface, index: number) => (
-                            <div key={index} className='inline-block transform transition-all duration-300 hover:-translate-y-1 cursor-pointer'>
-                                <div className='h-24 min-w-28 max-w-32 leading-13 p-2 text-center inline-block text-2xl text-[#04060C] relative z-[1] rounded bg-white mt-6 mr-3 transition duration-300 hover:bg-gradient-to-r hover:from-[#FF4308] hover:to-[#FB8500] group'>
-                                    <img src={`/assets/img/icons/${item.icon}`} alt={item.name} className='h-12 mx-auto mb-3' />
-                                    <p className="text-sm font-bold uppercase">{item.name}</p>
-                                </div>
+                            <div key={index} className='group relative flex flex-col items-center justify-center text-center rounded-xl bg-white p-4 h-28 w-28 shadow-sm hover:shadow-md transform transition duration-300 hover:-translate-y-2 hover:bg-gradient-to-br hover:from-[#FF4308] hover:to-[#FB8500]'>
+                                <img
+                                    src={`/assets/img/icons/${item.icon}`}
+                                    alt={item.name}
+                                    className="h-10 w-10 mb-3 transition duration-300"
+                                />
+                                <p className="text-sm font-semibold uppercase text-[#04060C] group-hover:text-white transition duration-300">
+                                    {item.name}
+                                </p>
+                                <span className="absolute inset-0 rounded-xl border border-gray-200 group-hover:border-transparent transition duration-300"></span>
                             </div>
                         ))
                     }
                 </div>
 
-                <h3 className='text-2xl leading-6 font-bold text-[#04060C] flex gap-1'><Monitor /> Frontend technologies</h3>
-                <div className="grid grid-cols-8 gap-2">
+                <h3 className='text-2xl font-bold text-[#04060C] flex items-center gap-2 mb-4'>
+                    <Monitor className="text-orange-500" />
+                    Frontend technologies
+                </h3>
+                <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 xl:grid-cols-8 gap-4 mb-10">
                     {
                         frontendTechnologies.map((item: TechnologiesInterface, index: number) => (
-                            <div key={index} className='inline-block transform transition-all duration-300 hover:-translate-y-1'>
-                                <div className='h-24 w-28 leading-13 p-2 text-center inline-block text-2xl text-[#04060C] relative z-[1] rounded bg-white mt-6 mr-3 transition duration-300 hover:bg-gradient-to-r hover:from-[#FF4308] hover:to-[#FB8500] group'>
-                                    <img src={`/assets/img/icons/${item.icon}`} alt={item.name} className='h-12 mx-auto mb-3' />
-                                    <p className="text-sm font-bold uppercase">{item.name}</p>
-                                </div>
+                            <div key={index} className='group relative flex flex-col items-center justify-center text-center rounded-xl bg-white p-4 h-28 w-28 shadow-sm hover:shadow-md transform transition duration-300 hover:-translate-y-2 hover:bg-gradient-to-br hover:from-[#FF4308] hover:to-[#FB8500]'>
+                                <img
+                                    src={`/assets/img/icons/${item.icon}`}
+                                    alt={item.name}
+                                    className="h-10 w-10 mb-3 transition duration-300"
+                                />
+                                <p className="text-sm font-semibold uppercase text-[#04060C] group-hover:text-white transition duration-300">
+                                    {item.name}
+                                </p>
+                                <span className="absolute inset-0 rounded-xl border border-gray-200 group-hover:border-transparent transition duration-300"></span>
                             </div>
                         ))
                     }
