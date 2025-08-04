@@ -23,14 +23,14 @@ const Home = () => {
         return () => clearTimeout(timer)
     }, []);
 
-    // useEffect(() => {
-    //     const link = document.createElement('a');
-    //     link.href="/assets/img/cv/cv2.pdf";
-    //     link.download = "Resume_Shakil_Ahmad.pdf";
-    //     document.body.appendChild(link);
-    //     link.click();
-    //     document.body.removeChild(link)
-    // }, [])
+    useEffect(() => {
+        const link = document.createElement('a');
+        link.href="/assets/img/cv/cv2.pdf";
+        link.download = "Resume_Shakil_Ahmad.pdf";
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link)
+    }, [])
     
     const menus = [
                     { href: "#home", text: "Home" },
