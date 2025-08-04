@@ -5,6 +5,10 @@
     --font-playfair: "Playfair", serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .stroke-text {
   -webkit-text-stroke: 1px #fe5305;
   color: transparent;

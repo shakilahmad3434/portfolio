@@ -26,7 +26,7 @@ const Portfolio = () => {
       ]
 
   return (
-    <div className='sm:px-4 md:px-8 mt-24 xl:mt-0' id='portfolio'>
+    <div className='sm:px-4 md:px-8 mt-24' id='portfolio'>
         <h4 className="text-2xl font-medium mb-6 uppercase text-transparent bg-clip-text flex items-center gap-2"
             style={{
             backgroundImage: "linear-gradient(90deg, #FF4308 0%, #FB8500 100%)",

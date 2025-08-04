@@ -9,6 +9,7 @@ import Link from 'next/link'
 import { Mail, Menu, PhoneCall, X } from 'lucide-react'
 import Button from './common/Button'
 import Preloader from './common/Preloader'
+import Skill from './Skill'
 
 const Home = () => {
     const [open, setOpen] = useState(false)
@@ -22,14 +23,14 @@ const Home = () => {
         return () => clearTimeout(timer)
     }, []);
 
-    useEffect(() => {
-        const link = document.createElement('a');
-        link.href="/assets/img/cv/cv2.pdf";
-        link.download = "Resume_Shakil_Ahmad.pdf";
-        document.body.appendChild(link);
-        link.click();
-        document.body.removeChild(link)
-    }, [])
+    // useEffect(() => {
+    //     const link = document.createElement('a');
+    //     link.href="/assets/img/cv/cv2.pdf";
+    //     link.download = "Resume_Shakil_Ahmad.pdf";
+    //     document.body.appendChild(link);
+    //     link.click();
+    //     document.body.removeChild(link)
+    // }, [])
     
     const menus = [
                     { href: "#home", text: "Home" },
@@ -100,8 +101,9 @@ const Home = () => {
 
         <div className='w-full lg:pl-64 xl:pl-64 p-5 xl:p-12 mt-20 lg:mt-0'>
             <Hero />
-            <About />
+            <Skill />
             <Portfolio />
+            <About />
             <Contact />
         </div>
       </div>

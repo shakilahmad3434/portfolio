@@ -3,15 +3,15 @@ import Button from './common/Button'
 
 const About = () => {
   return (
-    <div className='sm:px-4 md:px-8 mt-16 xl:mt-0 flex flex-col xl:flex-row' id='about'>
+    <div className='sm:px-4 md:px-8 mt-16 flex flex-col xl:flex-row' id='about'>
         <div className='xl:w-1/3 flex flex-col items-center justify-center xl:block'>
             {/* box 1 */}
             <div className="h-64 w-64 text-center relative">
               <img src="/assets/img/bg/polygon6.png" alt="" className="absolute left-6 top-3" />
               <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
-                <h2 className="text-5xl font-bold uppercase stroke-text">4k</h2>
+                <h2 className="text-5xl font-bold uppercase stroke-text">100+</h2>
                 <p className="text-xl font-medium leading-5 text-[#5D626F] uppercase mt-4 transition-all duration-500">
-                  PROJECTS DEPLOYED
+                  PROJECTS
                 </p>
               </div>
             </div>
@@ -20,9 +20,9 @@ const About = () => {
             <div className="h-64 w-64 text-center relative xl:left-28 xl:-top-14">
               <img src="/assets/img/bg/polygon7.png" alt="" className="absolute left-6 top-3" />
               <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
-                <h2 className="text-5xl font-bold uppercase text-white">3k</h2>
+                <h2 className="text-5xl font-bold uppercase text-white">7+</h2>
                 <p className="font-figtree text-xl font-medium leading-5 text-white uppercase mt-4 transition-all duration-500">
-                  Happy Client
+                  Tech stacks
                 </p>
               </div>
             </div>
@@ -33,7 +33,7 @@ const About = () => {
               <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
                 <h2 className="text-5xl font-bold uppercase stroke-text">1k</h2>
                 <p className="text-xl font-medium leading-5 text-[#5D626F] uppercase mt-4 transition-all duration-500">
-                  GITHUB STARS
+                  APIs integration
                 </p>
               </div>
             </div>
