@@ -69,7 +69,7 @@ const Contact = () => {
                     </form>
                 </div>
             </div>
-            <div className='xl:w-8/12'>
+            <div className='xl:w-8/12 py-4'>
                 <h4 className="text-2xl font-medium mb-12 sm:mb-6 uppercase text-transparent bg-clip-text flex items-center gap-2"
                     style={{
                     backgroundImage: "linear-gradient(90deg, #FF4308 0%, #FB8500 100%)",

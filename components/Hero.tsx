@@ -10,9 +10,9 @@ const Hero = () => {
             <img src="/assets/img/icons/hand1.svg" alt="hand icon" />
             Hi I’m Shakil Ahmad
         </h4>
-        <h1 className="text-[24px] sm:text-4xl md:text-5xl xl:text-6xl font-bold text-[#04060C] uppercase mb-5 sm:mb-15">A FULL STACK <span className='font-black'>DEVELOPER &</span></h1>
+        <h1 className="text-[25px] sm:text-4xl md:text-5xl xl:text-6xl font-bold text-[#04060C] uppercase mb-5 sm:mb-15">A FULL STACK <span className='font-black'>DEVELOPER &</span></h1>
         <div className="relative lg:-right-80 xl:-right-90 2xl:-right-[500px] inline-block py-3 sm:py-6 px-4 sm:px-7 border border-[#FE5C05] rounded bg-white isolate">
-            <span className="bg-gradient-to-r from-[#FF4308] to-[#FB8500] bg-clip-text text-transparent font-playfair italic text-3xl sm:text-5xl font-semibold uppercase">
+            <span className="bg-gradient-to-r from-[#FF4308] to-[#FB8500] bg-clip-text text-transparent font-playfair italic text-[32px] sm:text-5xl font-semibold uppercase">
                 TECH ENTHUSIAST
             </span>
 

@@ -18,7 +18,7 @@ const Home = () => {
     useEffect(() => {
         const timer = setTimeout(() => {
             setPreloader(false)
-        }, 2000)
+        }, 1500)
 
         return () => clearTimeout(timer)
     }, []);
@@ -35,8 +35,8 @@ const Home = () => {
     const menus = [
                     { href: "#home", text: "Home" },
                     { href: "#skill", text: "Skills" },
-                    { href: "#about", text: "About ME"},
                     { href: "#portfolio", text: "Portfolio" },
+                    { href: "#about", text: "About ME"},
                     { href: "#contact", text: "Contact" },
                 ]
 

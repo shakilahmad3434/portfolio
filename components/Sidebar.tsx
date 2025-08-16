@@ -5,8 +5,8 @@ const Sidebar = () => {
     const menus = [
                     { href: "#home", text: "Home", img: "home-h2.svg", duration: 700 },
                     { href: "#skill", text: "Skills", img: "skills-h2.svg", duration: 700 },
-                    { href: "#about", text: "About ME", img: "about-h2.svg", duration: 800 },
                     { href: "#portfolio", text: "Portfolio", img: "portfolio-h2.svg", duration: 1100 },
+                    { href: "#about", text: "About ME", img: "about-h2.svg", duration: 800 },
                     { href: "#contact", text: "Contact", img: "contact-h2.svg", duration: 1300 },
                 ]
     return (
