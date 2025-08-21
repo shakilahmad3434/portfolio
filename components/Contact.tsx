@@ -102,7 +102,7 @@ const Contact = () => {
                             </div>
                             <div className="ml-4">
                                 <h5 className="text-xl leading-5 text-[#04060C] font-semibold mb-3.5">CALL</h5>
-                                <a href="tel:6201424759" className="text-[16px] leading-4 text-[#5D626F] opacity-80 font-semibold inline-block">7259522909</a>
+                                <a href="tel:6201424759" className="text-[16px] leading-4 text-[#5D626F] opacity-80 font-semibold inline-block">7259542909</a>
                             </div>
                         </div>
 
