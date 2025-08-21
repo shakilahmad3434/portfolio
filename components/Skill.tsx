@@ -12,6 +12,10 @@ const Skill = () => {
             name: "nodejs"
         },
         {
+            icon: "expressjs.svg",
+            name: "expressjs"
+        },
+        {
             icon: "mongodb.svg",
             name: "mongodb"
         },
@@ -114,12 +118,12 @@ const Skill = () => {
             name: "javascript"
         },
         {
-            icon: "typescript.svg",
-            name: "typescript"
-        },
-        {
             icon: "reactjs.svg",
             name: "reactjs"
+        },
+        {
+            icon: "typescript.svg",
+            name: "typescript"
         },
         {
             icon: "nextjs.svg",

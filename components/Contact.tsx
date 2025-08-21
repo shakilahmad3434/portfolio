@@ -7,6 +7,7 @@ import toast, { Toaster } from 'react-hot-toast';
 const Contact = () => {
     const formRef = useRef<HTMLFormElement>(null)
     const [loading, setLoading] = useState(false)
+
     const handleContact = async (e: FormEvent<HTMLFormElement>) => {
         e.preventDefault();
  
@@ -45,7 +46,7 @@ const Contact = () => {
                             <input type="text" name='name' required placeholder="Full Name" className="border-none outline-none w-full rounded mt-5 bg-white p-4 h-12 text-[#04060] text-lg" />
                         </div>
                         <div>
-                            <input type="number" name='phone' placeholder="Phone Number" className="border-none outline-none w-full rounded mt-5 bg-white p-4 h-12 text-[#04060] text-lg" />
+                            <input type="number" name='mobile' placeholder="Phone Number" className="border-none outline-none w-full rounded mt-5 bg-white p-4 h-12 text-[#04060] text-lg" />
                         </div>
                         <div>
                             <input type="email" name='email'  placeholder="Email Address" className="border-none outline-none w-full rounded mt-5 bg-white p-4 h-12 text-[#04060] text-lg"  required />
