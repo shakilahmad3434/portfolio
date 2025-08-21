@@ -108,6 +108,7 @@ const Portfolio = () => {
                                 </h4>
                                 <a
                                     href={item.href}
+                                    target="_blank"
                                     className="text-[#04060C] font-figtree text-lg leading-7 hover:underline transition-all duration-300 uppercase font-semibold"
                                 >
                                     {item.title}
