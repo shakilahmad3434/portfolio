@@ -25,7 +25,7 @@ const Home = () => {
 
     useEffect(() => {
         const link = document.createElement('a');
-        link.href="/assets/img/cv/cv2.pdf";
+        link.href="/assets/img/cv/shakil-resume.pdf";
         link.download = "Resume_Shakil_Ahmad.pdf";
         document.body.appendChild(link);
         link.click();
