@@ -110,9 +110,9 @@ const Home = () => {
       </div>
 
       <div className='w-12 h-12 rounded-full fixed bottom-5 right-5 z-10 bg-gradient-to-r from-[#FF4308] to-[#FB8500] cursor-pointer animate-bounce'>
-            <Link href="https://wa.me/+91 7259542909?text=Hi !">
+            <a href="https://wa.me/917259542909?text=Hi!" target="_blank" rel="noopener noreferrer">
                 <img src="/assets/img/logo/whatsapp.webp" alt="whatsapp logo" />
-            </Link>
+            </a>
         </div>
     </div>
   )

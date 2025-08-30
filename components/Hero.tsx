@@ -27,7 +27,7 @@ const Hero = () => {
                 <img src="/assets/img/all-images/abc.png" alt="" className='rounded w-full h-full object-cover' />
             </div>
             <div className='lg:w-1/2 pt-12 sm:ml-16 2xl:ml-38 pb-0'>
-                <p className='text-xl font-medium text-[#5D626F] opacity-80'>As a passionate Full Stack Developer, I specialize in building scalable web applications from scratch using modern technologies like React, Next.js, Node.js, Express, and MongoDB. With over 3.5+ years of experience, I craft user-centric solutions that merge design with functionality.</p>
+                <p className='text-xl font-medium text-[#5D626F] opacity-80'>As a passionate Full Stack Developer, I specialize in building scalable web applications from scratch using modern technologies like React, Next.js, Node.js, Express, and MongoDB. With over 3.6 years of experience, I craft user-centric solutions that merge design with functionality.</p>
                 <Button />
             </div>
         </div>
